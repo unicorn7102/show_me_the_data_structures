@@ -1,4 +1,3 @@
-# udacity_data_structure
-course projects
+# show_me_the_data_structures
 
-Project 1 - Show Me the Data Structures
+Udacity course projects (Data Structure)
