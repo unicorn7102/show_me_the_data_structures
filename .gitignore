@@ -1,0 +1,5 @@
+# ignore all jupyter notebook
+*.ipynb
+
+.DS_Store
+__pycache__/
