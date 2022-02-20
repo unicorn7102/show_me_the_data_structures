@@ -1,0 +1,3 @@
+In the encoding, we need to loop through all characters in the data once to count the frequency for each distinct characters. Thus, the time complexity is $O(n)$. After this, the time and space consumption will depend on the number of distinct characters counted, $N_c$. From space complexity perspective, we need to build a Huffman tree with all distinct characters as leaf nodes; from time perspective, time needed for constructing the tree / visiting all leaf nodes are linear to $N_c$. Furthermore, if we assume $N_c << n$, the space and time complexity is approximately $O(1)$.
+
+In the decoding part, time complexity is obviously $O(n)$. Still, we need extra space for the Huffman tree (constant space complexity). 

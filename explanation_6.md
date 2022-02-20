@@ -1,0 +1,1 @@
+Both the union and intersection calculations have time complexity of $O(n)$ because there are loops over all elements in two linked lists. Extra space is required to keep track of whether an element has been added or not (worst-case complexity $O(n)$).

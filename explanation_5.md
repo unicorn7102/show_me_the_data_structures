@@ -1,0 +1,1 @@
+The problem 5 is not very clear to me, eg, the rules for adding new information or calculating hash for new blocks are not stated in the problem. Nevertheless, because a linked list with both head and tail pointers is used for building a block chain, the complexity for insertion is $O(1)$.
